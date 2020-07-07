@@ -4,15 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio PCFZ</title>
+<style>
+   body{background-color: #006D77;}
+    h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    }
+    h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+    
+    font-style: italic;}
+
+    p {font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:white;
+    line-height: 1.5em;
+    }
+
+em {color:black;
+    font-weight: bold}
+
+strong {color:black;}
+
+li{font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:white;    
+    line-height: 1.5em}
+.picture-circle { border-radius: 100%;}
+
+    .button {color:chartreuse;
+        border-radius: 4px;
+        background-color: blanchedalmond;
+        padding: 15px 30px;
+        
+    }
+    a {text-decoration: none;}
+
+    .li-alternative {font-size: 20px;
+    color:red;
+    line-height: 1.5em;
+    font-weight: bold;}
+    .tamanho-1{font-size: 30px;}
+    
+
+</style>
+
+
 </head>
 <body>
     <h1 id="nome">Paulo Cesar Frazão</h1>
 
-    <img id="foto" src="eu.jpeg" alt="Foto de Paulo Frazão" width="200">
+    <img class="picture-circle" id="foto" src="eu.jpeg" alt="Foto de Paulo Frazão" width="200">
    <br><br><br><br>
    
 <hr>
 <br><br>
+
+<h2> Falando um pouco Sobre mim</h2>
+<br>
 <p id="desc">
 
     Olá meu nome é <strong><em>Paulo Cesar Frazão </em></strong>Sou Brasileiro tenho 29 anos,  <br><br>
@@ -27,29 +78,32 @@
 <hr>
 <br><br>
     <h2 id="Hab">Habilidades</h2>
+    <br><br>
     <ul>
-        <li>Focado</li><br>
+        <li class="tamanho-1">Focado</li><br>
         <li><em></em>Analista<em></em></li><br>
-        <li><em>Pontual</em></li><br>
+        <li class="tamanho-1"><em>Pontual</em></li><br>
         <li>Bom Ouvinte </li><br>
-        <li>Criativo</li><br>
+        <li class="tamanho-1">Criativo</li><br>
         <li>Conhecimento em  CSS ,Html e Java</li><br>
-        <li>Edição de Videos e Audios </li><br>
+        <li class="tamanho-1">Edição de Videos e Audios </li><br>
         <li><strong></strong>Conhecimentos em CRUD Banco de Dados SQL Oracle</strong> </li><br>
 
-        <li><strong>Designer Gráfico</strong></li>
+        <li class="tamanho-1"><strong>Designer Gráfico</strong></li>
     </ul>
+    <br><br>
 
-    <h2><a href="#foto"><s><u>minha foto</u> </s></a></h2> 
+    <h2 ><a  class="button" href="#foto">minha foto</a></h2> 
+    <br><br>
 
      <p> este é um blog que gosto de ler <a  target="_blank" href="https://blogdojuca.uol.com.br/2020/07/posse-de-bola-landim-jesus-x-fred-dudu-e-o-brasileirao-vem-ai/"><strong>Clique Aqui</strong> </a> </p>
     </ul>
     
-    <ol>
-<li> <a href="#Hab">Habilidades</a></li>
-<li> <a href="#desc">descrição</li>
-<li><a href="#nome">nome</li>
-</ol>
+    <ul>
+<li> <a class="li-alternative " href="#Hab">Habilidades</a></li>
+<li> <a  class="li-alternative " href="#desc">descrição</li>
+<li><a  class="li-alternative " href="#nome">nome</li>
+</ul>
 </body>
 </html>
 
