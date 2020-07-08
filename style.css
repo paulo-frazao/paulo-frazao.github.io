@@ -1,0 +1,101 @@
+
+body{background-color: rgb(0, 0, 0);}
+    h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    
+    
+    }
+    h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width:99%;   
+    font-style: italic;
+    padding: 5px;
+
+}
+/* .header-conteiner h2{ */
+    /* float: top ; */
+    /* color:blue; */
+/* } */
+
+    p {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    line-height: 1.5em;
+    font-weight: bold  ;
+    margin-top: 80px;
+    }
+
+em {color:rgb(57, 245, 0);
+    font-weight: bold;}
+
+strong {color:rgb(57, 245, 0);}
+
+li{font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(255, 255, 255);    
+    line-height: 1.5em}
+
+.picture-circle { border-radius: 10%;
+    width:30%;
+    float:left;
+    margin-right: 20px;
+    margin-top: 100px;
+    
+    
+}
+
+    .button {color:rgb(255, 2, 2);
+        border-radius: 4px;
+        background-color: blanchedalmond;
+        padding: 15px 30px;
+        margin:35%;
+        font-weight: bold;
+        font-size: 20px;
+       
+
+        
+        
+    }
+    a {text-decoration: none;}
+
+    .li-alternative {font-size: 20px;
+    color:chartreuse;
+    line-height: 1.5em;
+    font-weight: bold;}
+    .tamanho-1{font-size: 30px;
+   }
+    
+    .header-conteiner {
+        background-color: rgb(0, 0, 0);
+        margin: auto;
+        width: 35%;
+        
+       border: 3px dashed rgb(255, 255, 255);
+        text-align: justify;
+        padding: 20px 20px;
+        /* overflow: visible; */
+        /* overflow-y: auto; */
+        /* overflow-x: auto; */
+    }
+    /* .header-container img{float:left; */
+    
+
+
+    .header-conteiner h1,h2{
+        text-align:center;
+        color:rgb(241, 8, 8);
+
+    }
+    .conteiner-Habilit{
+        margin: auto;
+        
+        width: 35%;
+        border: 3px dashed rgb(251, 255, 3);
+        text-align: justify;
+        padding: 20px 20px;
+        
+    }
+    a:hover{color:rgb(1, 1, 80)}
