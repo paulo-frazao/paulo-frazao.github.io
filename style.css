@@ -23,9 +23,9 @@ body{background-color: rgb(0, 0, 0);}
     p {font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color:rgb(255, 255, 255);
-    line-height: 1.5em;
+    line-height: 2.1em;
     font-weight: bold  ;
-    margin-top: 80px;
+    margin-top: 50px;
     }
 
 em {color:rgb(57, 245, 0);
@@ -33,7 +33,7 @@ em {color:rgb(57, 245, 0);
 
 strong {color:rgb(57, 245, 0);}
 
-li{font-family:'Times New Roman', Times, serif;
+li{font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color:rgb(255, 255, 255);    
     line-height: 1.5em}
@@ -76,6 +76,8 @@ li{font-family:'Times New Roman', Times, serif;
        border: 3px dashed rgb(255, 255, 255);
         text-align: justify;
         padding: 20px 20px;
+        margin-bottom: 40px;
+        margin-top: 40px;
         /* overflow: visible; */
         /* overflow-y: auto; */
         /* overflow-x: auto; */
@@ -96,6 +98,6 @@ li{font-family:'Times New Roman', Times, serif;
         border: 3px dashed rgb(251, 255, 3);
         text-align: justify;
         padding: 20px 20px;
-        
+        margin-bottom: 40px;
     }
     a:hover{color:rgb(1, 1, 80)}
