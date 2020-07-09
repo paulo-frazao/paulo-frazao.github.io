@@ -42,14 +42,14 @@ li{font-family:Verdana, Geneva, Tahoma, sans-serif;
     width:30%;
     float:left;
     margin-right: 20px;
-    margin-top: 100px;
+    margin-top: 40px;
     
     
 }
 
     .button {color:rgb(255, 2, 2);
         border-radius: 4px;
-        background-color: blanchedalmond;
+        background-color: rgb(231, 139, 0);
         padding: 15px 30px;
         margin:35%;
         font-weight: bold;
@@ -68,7 +68,7 @@ li{font-family:Verdana, Geneva, Tahoma, sans-serif;
     .tamanho-1{font-size: 30px;
    }
     
-    .header-conteiner {
+    .header-container {
         background-color: rgb(0, 0, 0);
         margin: auto;
         width: 35%;
@@ -86,12 +86,12 @@ li{font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 
 
-    .header-conteiner h1,h2{
+    .header-container h1,h2{
         text-align:center;
         color:rgb(241, 8, 8);
 
     }
-    .conteiner-Habilit{
+    .container-Habilit{
         margin: auto;
         
         width: 35%;
